@@ -1,0 +1,17 @@
+num1=int(input('digite um numero de 0 a 10'))
+num2=int(input('digite outro numero'))
+num3=int(input('digite outro numero'))
+num4=int(input('digite outro numero'))
+num5=int(input('digite outro numero'))
+if num1 % 2 == 0:
+    print(num1)
+elif num2 % 2 == 0:
+    print(num2)
+elif num3 % 2 == 0:
+    print(num3)
+elif num4 % 2 == 0:
+    print(num4)
+elif num5 % 2 == 0:
+    print(num5)
+else:
+    print(f'esses sao impares')
